@@ -1,0 +1,81 @@
+---
+author: AgtLucas
+comments: true
+date: 2013-03-04 22:41:48
+layout: post
+slug: off-topic-os-brinquedos-da-boston-dynamics
+title: OFF-TOPIC - Os "brinquedos" da Boston Dynamics
+wordpress_id: 114
+categories:
+- Off-Topic
+tags:
+- Boston Dynamics
+- DARPA
+- Navy
+- Robos
+- US Marines
+---
+
+Iniciando hoje aqui no meu blog uma sessão Off-topic, cujo objetivo é tratar de algum assunto fora (ou quase isso) do contexto.
+
+Hoje vou falar um pouco dos brinquedos da Boston Dynamics, uma empresa <del>de fundo de quintal</del> criada por Marc Raibert, professor do MIT.
+
+A Boston Dynamics em parceria com a DARPA (Defense Advanced Research Projects Agency) vem criando desde de pouco antes de 2008 robôs fantásticos (e um pouco bizarros) para ajudar os soldados dos EUA no campo de batalha, seja carregando equipamentos ou até mesmo reconhecimento de território.
+
+O que realmente impressiona nestes robôs, são seus movimentos super realistas, bom chega de papo, abaixo vou listar alguns projetos da Boston Dynamics e alguns videos.
+
+<!-- more -->
+
+
+> LS3
+
+
+O LS3 é um robô designado para acompanhar o soldado aonde ele for.
+
+
+
+> Petman
+
+
+Petman é um robô humanoide, bom, como vou descrever melhor isso, olha o video abaixo, e, enfim...
+
+
+
+> Cheetah
+
+
+
+
+
+> BigDog
+
+
+Talvez o robô mais famosa da Boston Dynamics, e também o que mais impressiona
+
+
+
+> Sand Flea
+
+
+Parece com um carrinho qualquer, mas não se engane...
+
+
+
+> RHex
+
+
+Um pequeno explorador
+
+
+Mais detalhes dos projetos acima e também outros projetos você pode conferir no site da Boston Dynamics clicando [aqui](http://www.bostondynamics.com/).
+
+Alguém mais notou semelhanças com os Imperial Walkers do Star Wars?
+
+É isso, pra finalizar deixarei mais dois videos abaixo.
+
+
+
+
+
+
+

@@ -2,15 +2,17 @@
 layout: default
 ---
 
+{% for post in paginator.post %}
 <div class="content">
 	<article class="post-page">
 		<h2 class="post-page-title"><a href="{{ page.url }}" title="{{ page.title }}" rel="bookmark">{{ page.title }}</a></h2>
 		<small class="date">{{ page.date | date: "%d %B, %Y" }}</small>
-
-		{{ content }}
+		{% if post.excerpt %}
+			{{ post.excerpt | markdownify }}
+			<p><a href="{{ post.url }}" class="more-link">Read More</a></p>
+		{% else %}
+			{{ post.content }}
+		{% endif %}
 	</article>
-
-	<div class="comments-template">
-		{% include disqus.html %}
-	</div>
 </div>
+{% endfor %}
