@@ -17,7 +17,16 @@ layout: default
 {% endfor %}
 
 <section class="pagination">
-	
+	{% if paginator.previous_page %}
+	{% if paginator.previous_page == 1 %}
+	<a href="/" class="pagination-prev">Recentes</a>
+	{% else %}
+	<a href="/page{{paginator.previous_page}}" class="pagination-prev">Recentes</a>
+	{% endif %}
+	{% endif %}
+
+	{% if paginator.next_page %}
+	<a href="/page{{paginator.next_page}}" class="pagination-next">Antigos</a>
 </section>
 
 </div>
