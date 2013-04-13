@@ -2,8 +2,8 @@
 layout: default
 ---
 
-{% for post in paginator.post %}
 <div class="content">
+{% for post in paginator.post %}
 	<article class="post-page">
 		<h2 class="post-page-title"><a href="{{ page.url }}" title="{{ page.title }}" rel="bookmark">{{ page.title }}</a></h2>
 		<small class="date">{{ page.date | date: "%d %B, %Y" }}</small>
@@ -14,5 +14,10 @@ layout: default
 			{{ post.content }}
 		{% endif %}
 	</article>
-</div>
 {% endfor %}
+
+<section class="pagination">
+	
+</section>
+
+</div>
