@@ -1,11 +1,9 @@
 ---
-author: AgtLucas
 comments: true
 date: 2013-03-04 22:41:48
 layout: post
 slug: off-topic-os-brinquedos-da-boston-dynamics
 title: OFF-TOPIC - Os "brinquedos" da Boston Dynamics
-wordpress_id: 114
 categories:
 - Off-Topic
 tags:

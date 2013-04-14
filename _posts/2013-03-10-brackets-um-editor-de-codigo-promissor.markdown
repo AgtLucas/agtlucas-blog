@@ -1,11 +1,9 @@
 ---
-author: AgtLucas
 comments: true
 date: 2013-03-10 21:35:13
 layout: post
 slug: brackets-um-editor-de-codigo-promissor
 title: Brackets, um editor de código promissor
-wordpress_id: 163
 categories:
 - Tools
 tags:

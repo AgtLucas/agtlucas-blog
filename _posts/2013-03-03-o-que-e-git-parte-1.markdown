@@ -1,11 +1,9 @@
 ---
-author: AgtLucas
 comments: true
 date: 2013-03-03 21:31:42
 layout: post
 slug: o-que-e-git-parte-1
 title: Git - Parte 1
-wordpress_id: 78
 categories:
 - Git
 tags:

@@ -1,11 +1,9 @@
 ---
-author: AgtLucas
 comments: true
 date: 2012-12-25 22:12:28
 layout: post
 slug: php-por-onde-comecar
 title: PHP; por onde começar?
-wordpress_id: 12
 categories:
 - PHP
 tags:

@@ -1,11 +1,9 @@
 ---
-author: AgtLucas
 comments: true
 date: 2013-02-05 22:18:51
 layout: post
 slug: cursos-online-gratuitos
 title: Cursos online gratuitos
-wordpress_id: 44
 categories:
 - Cursos
 - Dicas
