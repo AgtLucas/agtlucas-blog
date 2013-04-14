@@ -1,0 +1,248 @@
+/*-----------------------------------*\
+	$LAYOUT RULES
+\*-----------------------------------*/
+
+header, footer {
+	width: 100%;
+}
+
+header {
+	text-align: center;
+	padding-bottom: 3.75em;
+	h1.logo {
+		font-size: 60px;
+		font-size: 3.75rem;
+		color: $greyblack;
+		a {
+			color: inherit;
+			&:hover {
+				color: $coolblue;
+			}
+		}
+	}
+	section.menu-panel {
+		position: relative;
+		background-color: $blackgrey;
+		display: none;
+		color: white;
+		ul {
+			margin-top: 20px;
+			li {
+				display: inline;
+				margin: 1.25em;
+				font-size: 20px;
+				font-size: 1.25rem;
+				color: $awhite;
+				a {
+					color: inherit;
+					&:hover {
+						color: $coolblue;
+					}
+				}
+			}
+		}
+		form {
+			margin: 2.5em;
+			input {
+				width: 50%;
+				height: 30px;
+				background-color: $greyblack;
+				border: none;
+				border-radius: 2px;
+				padding: 0.625em;
+				color: $awhite;
+				font: inherit;
+			}
+		}
+	}
+	p.pull {
+		position: relative;
+		font-size: 30px;
+		top: -7px;
+		color: $blackgrey;
+		a {
+			color: inherit;
+		}
+	}
+}
+
+footer {
+	position: relative;
+	height: auto;
+	background-color: $blackgrey;
+	color: $awhite;
+	section.footer-widget {
+		margin-top: 20px;
+		width: 33%;
+		float: left;
+		padding: 1.25em;
+		ul.sidebar {
+			li.widget {
+				h3.widget-title {
+					font-size: 20px;
+					font-size: 1.25rem;
+					padding-bottom: 1.25em;
+					padding-top: 1.25em;
+				}
+				ul {
+					padding-left: 1.25em;
+					li {
+						margin-bottom: 0.625em;
+						list-style: square;
+						border-bottom: 1px dashed $retsof;
+						a {
+							&:hover {
+								color: $awhite;
+							}
+						}
+					}
+				}
+			}
+			.tagcloud {
+				a {
+					&:hover {
+						color: $awhite;
+					}
+				}
+			}
+		}
+	}
+	.copyright {
+		position: relative;
+		margin-top: 40px;
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+		font-size: 14px;
+		font-size: 0.875rem;
+	}
+}
+
+.content {
+	position: relative;
+	width: 60em; /* 960px */
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0.625em; /* 10px */
+}
+
+section.main {
+	padding-bottom: 9.375em;
+	min-height: 600px;
+	article.post-page {
+		padding: 1.25em;
+		border-top: 1px dashed #ccc;
+		margin-bottom: 2.5em;
+		small.date {
+			position: relative;
+			margin-bottom: 40px;
+			display: block;
+			text-align: center;
+			font-weight: bold;
+		}
+		h1, h2, h3, h4, h5, h6 {
+			color: $coolblue;
+		}
+		h2.post-page-title {
+			text-align: center;
+			font-size: 35px;
+			font-size: 2.1875rem;
+			color: $greyblack;
+			a {
+				color: inherit;
+				&:hover {
+					color: $coolblue;
+				}
+			}
+		}
+		p {
+			margin-top: 0.625em;
+			margin-bottom: 0.625em;
+			font-size: 20px;
+			font-size: 1.25rem;
+			a {
+				&:hover {
+					color: $sorrow;
+				}
+			}
+			a.more-link {
+				text-align: center;
+				display: block;
+				margin-top: 40px;
+			}
+			img, video {
+				max-width: 100%;
+				margin: 0 auto;
+				text-align: center;
+				height: auto;
+				padding: 1.25em 0;
+			}
+		}
+
+		section.cat-tags {
+			border-top: 1px dashed #ccc;
+			padding: 1.25em;
+			margin-bottom: 50px;
+			margin-top: 60px;
+			span.cat-links, span.tag-links {
+				display: block;
+				margin-bottom: 10px;
+			}
+			section.sharing {
+				border-top: 1px dashed #ccc;
+				margin-top: 20px;
+				.social-network {
+					position: relative;
+					float: left;
+					margin-right: 20px;
+					margin-top: 20px;
+				}
+			}
+		}
+	}
+
+	section.pagination {
+		position: relative;
+		height: auto;
+		width: 100%;
+		border-top: 1px dashed #ccc;
+		margin: 2.5em 0;
+		padding-top: 2.5em;
+		font-size: 30px;
+		font-size: 1.875rem;
+		text-align: center;
+		color: $greyblack;
+		span {
+			padding: 0.625em;
+		}
+		a {
+			padding: 0.625em;
+		}
+	}
+}
+
+section.error {
+	position: relative;
+	text-align: center;
+	height: 300px;
+	padding-top: 100px;
+	border-top: 1px dashed #ccc;
+	font-size: 60px;
+	font-size: 3.75rem;
+	form {
+		margin-top: 25px;
+		input {
+			position: relative;
+			background-color: $blackgrey;
+			width: 50%;
+			height: 50px;
+			border: none;
+			border-radius: 3px;
+			padding: 1.25em;
+			color: $awhite;
+			font-family: inherit;
+			font-size: 20px;
+			font-size: 1.25rem;
+		}
+	}
+}
