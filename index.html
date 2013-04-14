@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Home
 ---
 
 <div class="content">
 {% for post in paginator.posts %}
 	<article class="post-page">
-		<h2 class="post-page-title"><a href="{{ page.url }}" title="{{ page.title }}" rel="bookmark">{{ page.title }}</a></h2>
+		<h2 class="post-page-title"><a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a></h2>
 		<small class="date">{{ page.date | date: "%d %B, %Y" }}</small>
 		{% if post.excerpt %}
 			{{ post.excerpt | markdownify }}
