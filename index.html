@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="content">
-{% for post in paginator.post %}
+{% for post in paginator.posts %}
 	<article class="post-page">
 		<h2 class="post-page-title"><a href="{{ page.url }}" title="{{ page.title }}" rel="bookmark">{{ page.title }}</a></h2>
 		<small class="date">{{ page.date | date: "%d %B, %Y" }}</small>
